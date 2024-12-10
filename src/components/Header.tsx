@@ -4,6 +4,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { AiOutlineSearch, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
+import Link from "next/link";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,27 +49,27 @@ const Header = () => {
             </select>
 
             {/* Login */}
-            <a
+            <Link
               href="#"
               className="hidden sm:flex items-center gap-1 text-sm hover:text-gray-300"
             >
               Login
               <FaRegUser />
-            </a>
+            </Link>
 
             {/* Wishlist */}
-            <a
+            <Link
               href="#"
               className="hidden sm:flex items-center gap-1 text-sm hover:text-gray-300"
             >
               Wishlist
               <FaRegHeart />
-            </a>
+            </Link>
 
             {/* Shopping Cart */}
             <Link href="#" className="flex items-center hover:text-gray-300">
               <FiShoppingCart />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -88,14 +89,14 @@ const Header = () => {
 
           {/* Navigation Links */}
           <nav className="hidden sm:flex space-x-6">
-            <a
+            <Link
               href="#"
               className="text-red-500 font-medium hover:text-pink-500 transition duration-200"
             >
               Home
               <FaAngleDown className="inline-flex ml-2 text-red-500"/>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
             >
@@ -106,25 +107,25 @@ const Header = () => {
               className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
             >
               Products
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
             >
               Blog
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
             >
               Shop
-            </a>
-            <a
+            </Link>
+            <Link
               href="/contact-us"
               className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
             >
               Contact
-            </a>
+            </Link>
           </nav>
 
           {/* Search Bar Section */}
@@ -206,11 +207,6 @@ const Header = () => {
 
 export default Header;
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
 // import { FaRegUser, FaRegHeart, FaRegEnvelope } from "react-icons/fa";
 // import { FiShoppingCart } from "react-icons/fi";
 // import { MdOutlinePhoneInTalk } from "react-icons/md";
