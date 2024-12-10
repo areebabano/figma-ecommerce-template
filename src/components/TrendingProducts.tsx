@@ -39,7 +39,7 @@ const TrendingProducts = () => {
               </div>
             </div>
           </div>
-        ))}  
+        ))}
       </div>
     </div>
   );
