@@ -116,7 +116,7 @@ export default function AboutUs() {
               alt="Client 2"
               width={70}
               height={70}
-              className="shadow-md"
+              className="shadow-md mb-4"
             />
             <Image
               src="/client3.png"
