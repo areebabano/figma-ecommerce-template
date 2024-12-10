@@ -26,7 +26,11 @@ const ProductDetail = () => {
   Unique Features Of Leatest & Trending Products
 </h1>
 
+<<<<<<< HEAD
+  
+=======
 
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
           {/* Paragraphs */}
           <div className="space-y-4">
             <p className="text-sm text-gray-400 flex items-center">

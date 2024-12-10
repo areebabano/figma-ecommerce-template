@@ -4,6 +4,10 @@ import { FiShoppingCart } from "react-icons/fi";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { AiOutlineSearch, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
+<<<<<<< HEAD
+import Link from "next/link";
+=======
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,27 +52,47 @@ const Header = () => {
             </select>
 
             {/* Login */}
+<<<<<<< HEAD
+            <Link
+=======
             <a
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
               href="#"
               className="hidden sm:flex items-center gap-1 text-sm hover:text-gray-300"
             >
               Login
               <FaRegUser />
+<<<<<<< HEAD
+            </Link>
+
+            {/* Wishlist */}
+            <Link
+=======
             </a>
 
             {/* Wishlist */}
             <a
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
               href="#"
               className="hidden sm:flex items-center gap-1 text-sm hover:text-gray-300"
             >
               Wishlist
               <FaRegHeart />
+<<<<<<< HEAD
+            </Link>
+
+            {/* Shopping Cart */}
+            <Link href="#" className="flex items-center hover:text-gray-300">
+              <FiShoppingCart />
+            </Link>
+=======
             </a>
 
             {/* Shopping Cart */}
             <a href="#" className="flex items-center hover:text-gray-300">
               <FiShoppingCart />
             </a>
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
           </div>
         </div>
       </div>
@@ -88,12 +112,33 @@ const Header = () => {
 
           {/* Navigation Links */}
           <nav className="hidden sm:flex space-x-6">
+<<<<<<< HEAD
+            <Link
+              href="/"
+=======
             <a
               href="#"
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
               className="text-red-500 font-medium hover:text-pink-500 transition duration-200"
             >
               Home
               <FaAngleDown className="inline-flex ml-2 text-red-500"/>
+<<<<<<< HEAD
+            </Link>
+            <Link
+              href="/about-us"
+              className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
+            >
+              About
+            </Link>
+            <Link
+              href="/products"
+              className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
+            >
+              Products
+            </Link>
+            <Link
+=======
             </a>
             <a
               href="#"
@@ -108,23 +153,38 @@ const Header = () => {
               Products
             </a>
             <a
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
               href="#"
               className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
             >
               Blog
+<<<<<<< HEAD
+            </Link>
+            <Link
+=======
             </a>
             <a
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
               href="#"
               className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
             >
               Shop
+<<<<<<< HEAD
+            </Link>
+            <Link
+=======
             </a>
             <a
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
               href="/contact-us"
               className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
             >
               Contact
+<<<<<<< HEAD
+            </Link>
+=======
             </a>
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
           </nav>
 
           {/* Search Bar Section */}
@@ -207,6 +267,11 @@ const Header = () => {
 export default Header;
 
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
 // import { FaRegUser, FaRegHeart, FaRegEnvelope } from "react-icons/fa";
 // import { FiShoppingCart } from "react-icons/fi";
 // import { MdOutlinePhoneInTalk } from "react-icons/md";
