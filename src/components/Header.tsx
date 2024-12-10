@@ -208,6 +208,8 @@ const Header = () => {
 export default Header;
 
 
+
+
 // import { FaRegUser, FaRegHeart, FaRegEnvelope } from "react-icons/fa";
 // import { FiShoppingCart } from "react-icons/fi";
 // import { MdOutlinePhoneInTalk } from "react-icons/md";

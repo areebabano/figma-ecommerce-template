@@ -16,7 +16,7 @@ const HeroSection = () => {
           className="rounded-lg"
         />
       </div>
-
+   
       {/* Center Content */}
       <div className="text-center lg:text-left lg:px-16 lg:ml-12 mb-12">
         <p className="text-sm text-pink-600 font-medium">

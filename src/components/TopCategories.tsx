@@ -51,7 +51,7 @@ const TopCategories = () => {
         <div className="w-2.5 h-2.5 rounded-full bg-gray-200 border-2 border-pink-500"></div>
       </div>
     </div>
-  );
+  );  
 };
 
 export default TopCategories;

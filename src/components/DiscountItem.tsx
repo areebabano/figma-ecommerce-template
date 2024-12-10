@@ -16,7 +16,7 @@ const DiscountItem = () => {
           <span className="text-purple-900 font-medium">Sofa Collection</span>
         </div>
       </div>
-
+  
       <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
         {/* Left Section - Product Details */}
         <div className="w-full lg:w-1/2 text-center lg:text-left px-4 lg:px-0 lg:ml-16">
