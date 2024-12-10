@@ -214,3 +214,5 @@ const ProductPage = ({ params }: ProductPageProps) => {
 
 export default ProductPage;
 
+
+
