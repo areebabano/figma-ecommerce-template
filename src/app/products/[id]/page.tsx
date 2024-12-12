@@ -2,7 +2,7 @@
 import { products } from "@/app/Data/product";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { FaArrowRight, FaFacebook, FaInstagram, FaPinterest, FaRegHeart, FaShareAlt, FaTwitter } from "react-icons/fa";
+import { FaArrowRight, FaFacebook, FaInstagram, FaPinterest, FaRegHeart, FaTwitter } from "react-icons/fa";
 
 interface ProductPageProps {
   params: {

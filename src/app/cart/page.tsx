@@ -1,5 +1,6 @@
 "use client"
 import Breadcrumb from '@/components/BreadCrumb';
+import Image from 'next/image';
 import React, { useState } from 'react';
 
 const CartPage = () => {
@@ -90,10 +91,12 @@ const CartPage = () => {
                   {cartItems.map((item) => (
                     <tr key={item.id} className="text-center">
                       <td className="border-b border-gray-300 px-4 py-2 text-left flex items-center">
-                        <img
+                        <Image
                           src={item.image}
                           alt={item.name}
-                          className="w-16 h-16 mr-4"
+                          width={60}
+                          height={60}
+                          className="mr-4"
                         />
                         <div>
                           <p className='text-sm text-black'>{item.name}</p>
