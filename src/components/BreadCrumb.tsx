@@ -19,6 +19,10 @@ const Breadcrumb = () => {
               Home
             </Link>{' '}
             &gt;{' '}
+            <Link href="/" className="text-gray-600 hover:text-pink-500">
+              Pages
+            </Link>{' '}
+            &gt;{' '}
             {pathParts.map((part, index) => {
               const pathTo = '/' + pathParts.slice(0, index + 1).join('/');
               return index === pathParts.length - 1 ? (
@@ -45,7 +49,3 @@ const Breadcrumb = () => {
 };
 
 export default Breadcrumb;
-<<<<<<< HEAD
-
-=======
->>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f

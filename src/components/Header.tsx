@@ -18,7 +18,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-purple-600 text-white max-w-7xl mx-auto">
+    <header className="bg-purple-600 text-white w-full fixed top-0 left-0 z-50">
       {/* Top Section */}
       <div className="bg-purple-700 px-6">
         <div className="px-14 py-2 flex justify-between items-center">
@@ -50,7 +50,7 @@ const Header = () => {
 
             {/* Login */}
             <Link
-              href="#"
+              href="/account"
               className="hidden sm:flex items-center gap-1 text-sm hover:text-gray-300"
             >
               Login
@@ -67,7 +67,7 @@ const Header = () => {
             </Link>
 
             {/* Shopping Cart */}
-            <Link href="#" className="flex items-center hover:text-gray-300">
+            <Link href="/cart" className="flex items-center hover:text-gray-300">
               <FiShoppingCart />
             </Link>
           </div>
@@ -90,14 +90,14 @@ const Header = () => {
           {/* Navigation Links */}
           <nav className="hidden sm:flex space-x-6">
             <Link
-              href="#"
+              href="/"
               className="text-red-500 font-medium hover:text-pink-500 transition duration-200"
             >
               Home
-              <FaAngleDown className="inline-flex ml-2 text-red-500"/>
+              <FaAngleDown className="inline-flex ml-2 text-red-500" />
             </Link>
             <Link
-              href="#"
+              href="/about-us"
               className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
             >
               About
@@ -109,13 +109,13 @@ const Header = () => {
               Products
             </Link>
             <Link
-              href="#"
+              href="/blog"
               className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
             >
               Blog
             </Link>
             <Link
-              href="#"
+              href="/shop"
               className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
             >
               Shop
@@ -129,22 +129,18 @@ const Header = () => {
           </nav>
 
           {/* Search Bar Section */}
-<div className="flex items-center gap-4 sm:w-64 w-full ml-4">
-  {/* Search Input with Button Inside */}
-  <div className="flex w-full border border-gray-300">
-    <input
-      type="text"
-      placeholder="Search for products..."
-      className="bg-white text-gray-700 text-sm py-2 px-4 w-full focus:outline-none focus:ring-1 focus:ring-pink-500"
-    />
-
-    {/* Search Button inside the input */}
-    <button className="bg-pink-500 text-white px-5 py-2 hover:bg-pink-600 transition duration-200">
-      <AiOutlineSearch size={20} />
-    </button>
-  </div>
-</div>
-
+          <div className="flex items-center gap-4 sm:w-64 w-full ml-4">
+            <div className="flex w-full border border-gray-300">
+              <input
+                type="text"
+                placeholder="Search for products..."
+                className="bg-white text-gray-700 text-sm py-2 px-4 w-full focus:outline-none focus:ring-1 focus:ring-pink-500"
+              />
+              <button className="bg-pink-500 text-white px-5 py-2 hover:bg-pink-600 transition duration-200">
+                <AiOutlineSearch size={20} />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -154,14 +150,11 @@ const Header = () => {
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } fixed top-0 right-0 w-64 h-full bg-white shadow-lg transition-transform duration-300 overflow-y-auto`}
       >
-        {/* Close Button */}
         <div className="absolute top-0 right-0 p-4">
           <button onClick={closeMenu} className="text-xl font-bold text-blue-900">
             &times;
           </button>
         </div>
-        
-        {/* Sidebar Navigation Links */}
         <nav className="flex flex-col p-4 space-y-4">
           <Link
             href="/"
@@ -182,13 +175,13 @@ const Header = () => {
             Products
           </Link>
           <Link
-            href="#"
+            href="/blog"
             className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
           >
             Blog
           </Link>
           <Link
-            href="#"
+            href="/shop"
             className="text-blue-900 font-medium hover:text-pink-500 transition duration-200"
           >
             Shop
@@ -206,6 +199,7 @@ const Header = () => {
 };
 
 export default Header;
+
 
 // import { FaRegUser, FaRegHeart, FaRegEnvelope } from "react-icons/fa";
 // import { FiShoppingCart } from "react-icons/fi";

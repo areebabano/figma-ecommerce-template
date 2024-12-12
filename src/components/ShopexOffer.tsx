@@ -13,11 +13,7 @@ const ShopExOffer = () => {
       title: "Fast Delivery",
       image: "/24support2.png", // Replace with your image source
       alt: "Fast Delivery Icon",
-<<<<<<< HEAD
     },  
-=======
-    },
->>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
     {
       id: 3,
       title: "Secure Payments",

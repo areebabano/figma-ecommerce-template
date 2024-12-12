@@ -16,11 +16,6 @@ const HeroSection = () => {
           className="rounded-lg"
         />
       </div>
-<<<<<<< HEAD
-   
-=======
-
->>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
       {/* Center Content */}
       <div className="text-center lg:text-left lg:px-16 lg:ml-12 mb-12">
         <p className="text-sm text-pink-600 font-medium">
@@ -74,48 +69,3 @@ export default HeroSection;
 
 
 
-// import Image from "next/image";
-
-// const HeroSection = () => {
-//   return (
-//     <section className="relative bg-gray-100 py-44 flex items-center justify-center">
-//       {/* Left Image */}
-//       <div className="absolute top-0 left-0 w-1/2 h-full">
-//         <Image
-//           src="/hero1.png" // Use the actual path of the image in your project
-//           alt="Left Image"
-//           layout="intrinsic" // You can adjust the layout to intrinsic or fixed as per your needs
-//           width={500} // Set a specific width for the image
-//           height={600} // Set a specific height for the image
-//           objectFit="cover"
-//         />
-//       </div>
-
-//       {/* Right Image */}
-//       <div className="absolute top-0 right-0 w-1/2 h-full">
-//         <Image
-//           src="/hero.png" // Use the actual path of the image in your project
-//           alt="Right Image"
-//           layout="intrinsic" // You can adjust the layout to intrinsic or fixed as per your needs
-//           width={500} // Set a specific width for the image
-//           height={600} // Set a specific height for the image
-//           objectFit="cover"
-//         />
-//       </div>
-
-//       {/* Center Content */}
-//       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
-//         <p className="text-sm text-red-500 mb-2">Best Furniture For Your Castle....</p>
-//         <h1 className="text-4xl font-bold text-gray-800 mb-4">New Furniture Collection Trends in 2020</h1>
-//         <p className="text-lg text-gray-600 mb-6">
-//           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.
-//         </p>
-//         <button className="bg-blue-600 text-white py-3 px-6 rounded-full hover:bg-blue-700 transition duration-300">
-//           Shop Now
-//         </button>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default HeroSection;
