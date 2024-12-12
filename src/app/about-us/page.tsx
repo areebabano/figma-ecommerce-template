@@ -116,7 +116,7 @@ export default function AboutUs() {
               alt="Client 2"
               width={70}
               height={70}
-              className="shadow-md mb-4"
+              className="shadow-md"
             />
             <Image
               src="/client3.png"
@@ -140,3 +140,8 @@ export default function AboutUs() {
     </div>
   );
 }
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f

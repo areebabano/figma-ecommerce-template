@@ -39,7 +39,11 @@ const TrendingProducts = () => {
               </div>
             </div>
           </div>
+<<<<<<< HEAD
+        ))}  
+=======
         ))}
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
       </div>
     </div>
   );

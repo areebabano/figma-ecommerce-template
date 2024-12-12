@@ -16,7 +16,11 @@ const HeroSection = () => {
           className="rounded-lg"
         />
       </div>
+<<<<<<< HEAD
+   
+=======
 
+>>>>>>> 917b7661c6aa097032c6ef3f24a1e82973450f1f
       {/* Center Content */}
       <div className="text-center lg:text-left lg:px-16 lg:ml-12 mb-12">
         <p className="text-sm text-pink-600 font-medium">
