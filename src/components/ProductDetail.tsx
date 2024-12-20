@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const ProductDetail = () => {
   return (
@@ -43,9 +44,11 @@ const ProductDetail = () => {
 
           {/* Add to Cart Button */}
           <div className="mt-6 flex items-center gap-4">
-            <button className="px-6 py-2 bg-pink-500 text-white shadow-lg hover:bg-purple-700 transition">
+            <Link href="/cart">
+            <button className="px-6 py-2 font-bold bg-pink-500 text-white shadow-lg hover:bg-purple-700 transition">
               Add to Cart
             </button>
+            </Link>
 
             {/* Product Name and Price */}
             <div className="flex flex-col items-start">

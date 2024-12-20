@@ -1,5 +1,6 @@
 import Image from 'next/image'; // Import Next.js Image component
 import Breadcrumb from '@/components/BreadCrumb';
+import Link from 'next/link';
 
 export default function AboutUs() {
   const offers = [
@@ -38,7 +39,7 @@ export default function AboutUs() {
       <Breadcrumb />
 
       {/* Page Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-40 py-12 flex flex-col lg:flex-row items-center gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-40 py-12 flex flex-col lg:flex-row items-center gap-10">
         {/* Left Image */}
         <div className="flex-1">
           <Image
@@ -59,9 +60,11 @@ export default function AboutUs() {
           <p className="text-gray-400 text-sm leading-relaxed mb-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices mattis aliquam, malesuada diam est. Malesuada sem tristique amet erat vitae eget dolor lobortis. Accumsan faucibus vitae lobortis quis bibendum quam.
           </p>
-          <button className="px-4 py-2 bg-pink-500 text-white text-sm hover:bg-purple-600 transition">
+          <Link href="/contact-us">
+          <button className="px-6 py-3 font-bold bg-pink-500 text-white text-sm hover:bg-purple-600 transition">
             Contact us
           </button>
+          </Link>
         </div>
       </div>
 

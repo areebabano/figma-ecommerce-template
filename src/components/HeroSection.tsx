@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -35,9 +36,11 @@ const HeroSection = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
           adipiscing in phasellus non in justo.
         </p>
-        <button className="mt-6 px-6 py-3 font-semibold bg-pink-500 text-white hover:bg-pink-600 transition">
+        <Link href="/shop">
+        <button className="mt-6 px-6 py-3 font-bold bg-pink-500 text-white hover:bg-purple-600 transition">
           Shop Now
         </button>
+        </Link>
       </div>
 
       {/* Right Image */}

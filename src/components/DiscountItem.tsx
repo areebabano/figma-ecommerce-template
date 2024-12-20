@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const DiscountItem = () => {
   return (
@@ -55,9 +56,11 @@ const DiscountItem = () => {
 
           {/* Shop Now Button */}
           <div className="mt-6">
-            <button className="px-6 py-2 bg-pink-600 text-white shadow-lg hover:bg-purple-700 transition">
+            <Link href="/shop">
+            <button className="px-6 py-2 font-bold bg-pink-600 text-white shadow-lg hover:bg-purple-700 transition">
               Shop Now
             </button>
+            </Link>
           </div>
         </div>
 

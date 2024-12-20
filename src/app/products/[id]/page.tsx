@@ -138,25 +138,38 @@ const ProductPage = ({ params }: ProductPageProps) => {
         </div>
       </div>
       {/* Another Section */}
-      <div className="bg-gray-100 py-6 px-12">
-        <ul className="flex justify-start items-center gap-14 font-semibold text-lg mb-8">
-          <li className="text-[#151875] hover:border-b-2 border-[#151875]">Description</li>
-          <li className="text-[#151875] hover:border-b-2 border-[#151875]">Additional Info</li>
-          <li className="text-[#151875] hover:border-b-2 border-[#151875]">Reviews</li>
-          <li className="text-[#151875] hover:border-b-2 border-[#151875]">Video</li>
-        </ul>
-        <h1 className="text-black mb-4 font-semibold text-xl">Varius tempor.</h1>
-        <p className="text-sm text-gray-400">
-        Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .
-        </p>
-        <h1 className="text-black mb-4 font-semibold text-xl mt-6">More Details</h1>
-        <ul>
-          <li className="text-gray-400 text-sm"><FaArrowRight className="inline-flex mr-1"/>Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .</li>
-          <li className="text-gray-400 text-sm"><FaArrowRight className="inline-flex mr-1"/>Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .</li>
-          <li className="text-gray-400 text-sm"><FaArrowRight className="inline-flex mr-1"/>Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .</li>
-          <li className="text-gray-400 text-sm"><FaArrowRight className="inline-flex mr-1"/>Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .</li>
-        </ul>
-      </div>
+<div className="bg-gray-100 py-6 px-4 md:px-12">
+  <ul className="flex flex-col md:flex-row justify-start items-start md:items-center gap-4 md:gap-14 font-semibold text-lg mb-8">
+    <li className="text-[#151875] hover:border-b-2 border-[#151875]">Description</li>
+    <li className="text-[#151875] hover:border-b-2 border-[#151875]">Additional Info</li>
+    <li className="text-[#151875] hover:border-b-2 border-[#151875]">Reviews</li>
+    <li className="text-[#151875] hover:border-b-2 border-[#151875]">Video</li>
+  </ul>
+  <h1 className="text-black mb-4 font-semibold text-lg md:text-xl">Varius tempor.</h1>
+  <p className="text-sm text-gray-400">
+    Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .
+  </p>
+  <h1 className="text-black mb-4 font-semibold text-lg md:text-xl mt-6">More Details</h1>
+  <ul className="space-y-2">
+    <li className="text-gray-400 text-sm">
+      <FaArrowRight className="inline-flex mr-1" />
+      Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .
+    </li>
+    <li className="text-gray-400 text-sm">
+      <FaArrowRight className="inline-flex mr-1" />
+      Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .
+    </li>
+    <li className="text-gray-400 text-sm">
+      <FaArrowRight className="inline-flex mr-1" />
+      Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .
+    </li>
+    <li className="text-gray-400 text-sm">
+      <FaArrowRight className="inline-flex mr-1" />
+      Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .
+    </li>
+  </ul>
+</div>
+
       
       {/* Related Products Section */}
       <div className="bg-white py-10 px-14">

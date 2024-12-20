@@ -18,9 +18,9 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-purple-600 text-white w-full fixed top-0 left-0 z-50">
+    <header className="bg-purple-600 text-white w-full fixed top-0 left-0  z-50">
       {/* Top Section */}
-      <div className="bg-purple-700 px-6">
+      <div className="bg-purple-700 px-6 max-w-7xl mx-auto">
         <div className="px-14 py-2 flex justify-between items-center">
           {/* Left Section */}
           <div className="flex items-center gap-6">
@@ -51,9 +51,8 @@ const Header = () => {
             {/* Login */}
             <Link
               href="/account"
-              className="hidden sm:flex items-center gap-1 text-sm hover:text-gray-300"
+              className="flex items-center gap-1 text-sm hover:text-gray-300"
             >
-              Login
               <FaRegUser />
             </Link>
 

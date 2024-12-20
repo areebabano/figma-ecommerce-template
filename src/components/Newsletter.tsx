@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Newsletter = () => {
   return (
@@ -24,9 +25,11 @@ const Newsletter = () => {
           >
             Get Latest Update By Subscribing <br /> Our Newsletter
           </h1>
-          <button className="px-6 py-2 bg-pink-500 text-white hover:bg-purple-700 transition">
+          <Link href="/shop">
+          <button className="px-6 py-2 font-bold bg-pink-500 text-white hover:bg-purple-700 transition">
             Shop Now
           </button>
+          </Link>
         </div>
       </div>
 

@@ -39,11 +39,11 @@ const ShopExOffer = () => {
       </h1>
 
       {/* Card Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-8 ">
         {offers.map((offer) => (
           <div
             key={offer.id}
-            className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition"
+            className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition hover:border-b-4 border-purple-600"
           >
             <div className="flex justify-center mb-4">
               <Image

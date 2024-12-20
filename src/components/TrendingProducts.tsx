@@ -14,7 +14,7 @@ const TrendingProducts = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6">
         {products.map((product) => (
-          <div key={product.id} className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div key={product.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition hover:border-b-4 border-blue-900">
             {/* Image Section */}
             <div className="bg-gray-100 h-48 flex justify-center items-center">
               <Image

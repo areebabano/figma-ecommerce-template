@@ -37,7 +37,7 @@ const LatestBlog = () => {
     <div className="py-12 bg-white max-w-7xl mx-auto px-4 sm:px-6">
       {/* Section Title */}
       <h1 className="text-3xl font-bold text-center text-[#151875] mb-8">
-        Latest Blog
+        Leatest Blog
       </h1>
 
       {/* Blog Cards */}
